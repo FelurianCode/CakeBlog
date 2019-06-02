@@ -1,0 +1,639 @@
+2019-05-25 01:00:58 Error: [MissingViewException] View file "Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/index.ctp',
+)
+Request URL: /posts/
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 16:30:33 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-05-28 17:57:12 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 30]
+2019-05-28 17:57:12 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 17:57:44 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 30]
+2019-05-28 17:57:44 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 17:58:08 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 30]
+2019-05-28 17:58:08 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:00:52 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:00:54 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:05:13 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:05:57 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 30]
+2019-05-28 18:05:57 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 30, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:10:38 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:13:37 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/public/app/Controller/PostsController.php, line 6]
+2019-05-28 18:13:37 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/public...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/public...', 6, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/public...', 6, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:18:24 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:18:28 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:19:24 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:19:26 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:23:12 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/var/www/public/app/Controller/PostsController.php, line 5]
+2019-05-28 18:23:12 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/public...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/public...', 5, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/public...', 5, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:24:03 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:25:27 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:26:00 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:26:02 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:26:28 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:26:29 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:26:59 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:27:20 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:31:44 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:31:56 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:32:41 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 32]
+2019-05-28 18:32:41 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 32, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 32, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:34:38 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:34:40 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:46:38 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:47:30 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:47:33 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:47:33 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:49:21 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:49:23 Error: [MissingComponentException] Component class FlashComponent could not be found.
+Exception Attributes: array (
+  'class' => 'FlashComponent',
+  'plugin' => false,
+)
+Request URL: /posts/index
+Stack Trace:
+#0 /var/www/public/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('Flash', Array)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(PostsController))
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(188): Controller->constructClasses()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 18:52:58 Error: Fatal Error (1): Call to undefined method SessionComponent::flash() in [/var/www/public/app/Controller/PostsController.php, line 26]
+2019-05-28 18:52:58 Error: [FatalErrorException] Call to undefined method SessionComponent::flash()
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/public...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/public...', 26, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/public...', 26, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 18:54:46 Error: Fatal Error (1): Call to a member function error() on null in [/var/www/public/app/Controller/PostsController.php, line 32]
+2019-05-28 18:54:46 Error: [FatalErrorException] Call to a member function error() on null
+Request URL: /posts/add
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/public...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/public...', 32, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/public...', 32, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-05-28 21:32:20 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-28 21:33:00 Error: [MissingHelperException] Helper class FlashHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FlashHelper',
+  'plugin' => false,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Flash')
+#1 /var/www/public/lib/Cake/View/View.php(848): HelperCollection->__isset('Flash')
+#2 /var/www/public/app/View/Users/login.ctp(4): View->__get('Flash')
+#3 /var/www/public/lib/Cake/View/View.php(961): include('/var/www/public...')
+#4 /var/www/public/lib/Cake/View/View.php(923): View->_evaluate('/var/www/public...', Array)
+#5 /var/www/public/lib/Cake/View/View.php(473): View->_render('/var/www/public...')
+#6 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#7 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-05-28 23:03:21 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-05-29 04:45:03 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /post/recommend
+Stack Trace:
+#0 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-05-30 15:47:10 Error: [MissingActionException] Action PostsController::recommend() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'recommend',
+)
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-05-30 16:12:00 Error: [MissingViewException] View file "Posts/Posts/recommend.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/Posts/recommend.ctp',
+)
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName('Posts/recommend')
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render('Posts/recommend', NULL)
+#2 /var/www/public/app/Controller/PostsController.php(24): Controller->render('Posts/recommend')
+#3 [internal function]: PostsController->recommend()
+#4 /var/www/public/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#5 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#7 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2019-05-30 16:26:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'science' in 'where clause'
+Request URL: /posts/get_recommends
+Stack Trace:
+#0 /var/www/public/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/public/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT * FROM p...', Array)
+#2 /var/www/public/lib/Cake/Model/Datasource/DboSource.php(668): DboSource->execute('SELECT * FROM p...', Array, Array)
+#3 /var/www/public/lib/Cake/Model/Datasource/DboSource.php(539): DboSource->fetchAll('SELECT * FROM p...')
+#4 [internal function]: DboSource->query('SELECT * FROM p...')
+#5 /var/www/public/lib/Cake/Model/Model.php(3447): call_user_func_array(Array, Array)
+#6 /var/www/public/app/Controller/PostsController.php(30): Model->query('SELECT * FROM p...')
+#7 [internal function]: PostsController->get_recommends()
+#8 /var/www/public/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#9 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#11 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-05-30 16:27:25 Error: [MissingViewException] View file "Posts/get_recommends.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Posts/get_recommends.ctp',
+)
+Request URL: /posts/get_recommends
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-01 23:40:07 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/public/app/View/Posts/recommend.ctp, line 10]
+2019-06-01 23:40:07 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/public...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/public...', 10, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/public...', 10, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-01 23:41:02 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/public/app/View/Posts/recommend.ctp, line 9]
+2019-06-01 23:41:02 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/public...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/public...', 9, Array)
+#2 /var/www/public/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/public...', 9, Array)
+#3 /var/www/public/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2019-06-01 23:41:39 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /var/www/public/lib/Cake/View/View.php(848): HelperCollection->__isset('Cookie')
+#2 /var/www/public/app/View/Posts/recommend.ctp(6): View->__get('Cookie')
+#3 /var/www/public/lib/Cake/View/View.php(961): include('/var/www/public...')
+#4 /var/www/public/lib/Cake/View/View.php(923): View->_evaluate('/var/www/public...', Array)
+#5 /var/www/public/lib/Cake/View/View.php(473): View->_render('/var/www/public...')
+#6 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render('recommend', NULL)
+#7 /var/www/public/app/Controller/PostsController.php(26): Controller->render('recommend')
+#8 [internal function]: PostsController->recommend()
+#9 /var/www/public/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-06-01 23:42:17 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /var/www/public/lib/Cake/View/View.php(848): HelperCollection->__isset('Cookie')
+#2 /var/www/public/app/View/Posts/recommend.ctp(6): View->__get('Cookie')
+#3 /var/www/public/lib/Cake/View/View.php(961): include('/var/www/public...')
+#4 /var/www/public/lib/Cake/View/View.php(923): View->_evaluate('/var/www/public...', Array)
+#5 /var/www/public/lib/Cake/View/View.php(473): View->_render('/var/www/public...')
+#6 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render('recommend', NULL)
+#7 /var/www/public/app/Controller/PostsController.php(26): Controller->render('recommend')
+#8 [internal function]: PostsController->recommend()
+#9 /var/www/public/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-06-01 23:42:39 Error: [MissingHelperException] Helper class CookieHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CookieHelper',
+  'plugin' => false,
+)
+Request URL: /posts/recommend
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Cookie')
+#1 /var/www/public/lib/Cake/View/View.php(848): HelperCollection->__isset('Cookie')
+#2 /var/www/public/app/View/Posts/recommend.ctp(6): View->__get('Cookie')
+#3 /var/www/public/lib/Cake/View/View.php(961): include('/var/www/public...')
+#4 /var/www/public/lib/Cake/View/View.php(923): View->_evaluate('/var/www/public...', Array)
+#5 /var/www/public/lib/Cake/View/View.php(473): View->_render('/var/www/public...')
+#6 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render('recommend', NULL)
+#7 /var/www/public/app/Controller/PostsController.php(26): Controller->render('recommend')
+#8 [internal function]: PostsController->recommend()
+#9 /var/www/public/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /var/www/public/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
