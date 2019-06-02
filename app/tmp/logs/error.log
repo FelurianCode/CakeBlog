@@ -637,3 +637,27 @@ Stack Trace:
 #11 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
 #12 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2019-06-02 00:46:33 Error: [MissingViewException] View file "Users/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/view.ctp',
+)
+Request URL: /users/view/1
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-02 00:53:16 Error: [MissingViewException] View file "Users/edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/edit.ctp',
+)
+Request URL: /users/edit/4
+Stack Trace:
+#0 /var/www/public/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /var/www/public/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /var/www/public/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/public/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/public/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
